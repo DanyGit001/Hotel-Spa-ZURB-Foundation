@@ -71,6 +71,17 @@ color:$black;
 }
 }
 
+.imagen-bar {
+ background-image:url(../assets/imagenes/separadores/small/separator02-image.jpg);
+ @include breakpoint(medium) {
+ background-image:url(../assets/imagenes/separadores/medium/separator02-image.jpg);
+ }
+ @include breakpoint(large) {
+ background-image:url(../assets/imagenes/separadores/large/separator02-image.jpg);
+}
+}
+
+
 
 section.galeria-sobre-nosotros {
     @include breakpoint(medium) {
