@@ -1,0 +1,67 @@
+
+h2 {
+    color: $primary-color;
+	font-size: rem-calc(38);
+}
+
+section.habitaciones {
+.medium-4 a {
+color:$black;
+}
+
+
+
+ div.imagen {
+ position:relative;
+ 
+ div.titulo {
+ position: absolute;
+ bottom:0;
+ left:0;
+ padding-left:rem-calc(20);
+ h3 {
+ color:$white;
+ }
+ }
+ }
+ div.contenido {
+ background-color:$white;
+ padding:rem-calc(20);
+ }
+ }
+ 
+ .button {
+ @include button-style($secondary-color, darken($secondary-color, 10), $white)
+ text-transform:uppercase;
+ font-weight:bold;
+ font-size: rem-calc(16);
+ margin: rem-calc(20 0);
+ }
+ 
+ .imagen-separador {
+ height:200px;
+ background-repeat:no-repeat;
+ background-position: center center;
+ background-attachment:scroll;
+ @include breakpoint(medium) {
+ height:350px;
+ 
+ }
+ @include breakpoint(large) {
+ background-size:cover;
+ }
+ 
+ 
+ }
+ 
+ 
+ .imagen-alberca {
+ background-image:url(../assets/imagenes/separadores/small/separator01-image.jpg);
+ @include breakpoint(medium) {
+ background-image:url(../assets/imagenes/separadores/medium/separator01-image.jpg);
+ }
+ @include breakpoint(large) {
+ background-image:url(../assets/imagenes/separadores/large/separator01-image.jpg);
+}
+}
+
