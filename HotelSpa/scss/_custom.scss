@@ -3,6 +3,10 @@ h2 {
     color: $primary-color;
 	font-size: rem-calc(38);
 }
+.azulBG {
+    background-color:$primary-color;
+}
+
 
 section.habitaciones {
 .medium-4 a {
@@ -65,3 +69,9 @@ color:$black;
 }
 }
 
+
+section.galeria-sobre-nosotros {
+.vacio {
+    height: rem-calc(500);
+}
+}
