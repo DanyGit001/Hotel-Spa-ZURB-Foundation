@@ -113,3 +113,47 @@ div.contenido-galeria-sobre-nosotros {
 section.reservaciones {
     padding: rem-calc(50 0);
 }
+
+
+footer {
+    background-color:$primary-color;
+    padding:rem-calc(30 0 0 0 ); 
+    color:$white;
+
+    .menu {
+        a {
+            color:$white;
+        }
+    }
+.informacion-contacto {
+li {
+    position: relative;
+    height:100px;
+    padding-left: rem-calc(60);
+    padding-top: rem-calc(35);
+    &:first-child {
+        padding-top: rem-calc(22);
+    }
+
+    i {
+        font-size: rem-calc(60);
+        position: absolute;
+        top: 0;
+        left:0;
+    }
+}
+
+    }
+.social {
+    i {
+        font-size: rem-calc(60);
+    }
+}
+div.copyright {
+background-color: darken($primary-color, 10);
+p {
+    padding: :rem-calc(20 0);
+    margin:0;
+}
+}
+}
