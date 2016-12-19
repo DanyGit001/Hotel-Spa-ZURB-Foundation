@@ -10,6 +10,13 @@ h2 {
     color:$white;
 }
 
+div.off-canvas {
+    height:100%;
+    a, h3 {
+        color:$white;
+    }
+}
+
 header {
       position:relative;
 
@@ -53,6 +60,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b32b689e', e
 .menu-icon:hover {
     width:rem-calc(60);
     height:rem-calc(36);
+    margin-top:rem-calc(25);
 
     &::after {
         background-color:$white;

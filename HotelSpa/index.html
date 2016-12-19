@@ -9,6 +9,38 @@
     <link rel="stylesheet" href="css/foundation-icons.css">
   </head>
   <body>
+
+<!-- off canvas -->
+<div class="off-canvas-wrapper">
+<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+  <div class="off-canvas position-left" id="menuPrincipal" data-off-canvas data-position="left">
+    <h3 class="text-center">Navegacion</h3>
+<ul class="menu vertical" data-drilldown>
+  <li><a href="#">Inicio</a></li>
+<li><a href="#">Nosotros</a></li>
+<li><a href="#">Servicios</a></li>
+
+<li class="has-submenu is-drilldown-submenu-parent"> 
+  <a href="#">Habitaciones</a>
+<ul class="menu vertical">
+  <li><a href="#">Habitacion 01</a></li>
+ <li><a href="#">Habitacion 02</a></li>
+  <li><a href="#">Habitacion 03</a></li>
+   <li><a href="#">Habitacion 04</a></li>
+    <li><a href="#">Habitacion 05</a></li>
+     <li><a href="#">Habitacion 06</a></li>
+      
+
+</ul>
+</li>
+<li><a href="#">Contacto</a></li>
+
+</ul>
+  </div> <!-- off canvas -->
+
+<div class="off-canvas-content" data-off-canvas-content>
+
+
 <!-- header -->
 <header>
   <div id="overlay"></div>
@@ -31,7 +63,7 @@
     
   </div>
   <div class="small-4 medium-4 columns">
-    <a class="menu-icon float-right"></a>
+    <a data-open="menuPrincipal" class="menu-icon float-right"></a>
   </div>
 </div>
 </div>
@@ -234,7 +266,9 @@
 
 </footer>
 
-
+</div>
+</div>
+</div>
 
 
 
