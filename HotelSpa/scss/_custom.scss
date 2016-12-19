@@ -15,6 +15,9 @@ div.off-canvas {
     a, h3 {
         color:$white;
     }
+    .is-drilldown-submenu {
+        background-color: darken($primary-color, 20);
+    }
 }
 
 header {
