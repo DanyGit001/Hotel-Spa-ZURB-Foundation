@@ -285,10 +285,67 @@ type="button">
       per inceptos himenaeos. Praesent a tortor vulputate tellus lacinia
       sagittis. Donec varius quam magna, ut tristique ipsum gravida non.
     </p>
+
 <a data-open="modalReservar" class="button">Reservar</a> 
 </div>
   </div>
 </section>
+
+<!-- button Reserve form-->
+
+
+<div class="reveal" id="modalReservar" data-reveal data-animation-in="scale-in-up" 
+data-animation-out="scale-out-down">
+  <h2 class="text-center">Formulario de Reservacion</h2>
+  
+  <form data-abide novalidate>
+    <div class="alert callout" style="display:none;" data-abide-error>
+<p><i class="fi-alert"></i>Hay problemas en tu formulario!</p>
+
+    </div>
+
+<div class="row columns">
+  <label>Nombre:
+    <input type="text"placeholder="Tu Nombre" required>
+    
+    <span class="form-error">
+      <i class="fi-alert"></i>Tu nombre es obligatorio!</span>
+  
+  </label>
+</div>
+
+<div class="row columns">
+  <label>Email:
+    <input type="text"placeholder="Tu Email" required pattern="email">
+      <span class="form-error">
+      <i class="fi-alert"></i>Tu email es obligatorio!</span>
+  
+  </label>
+</div>
+<div class="row columns">
+  <label>Telefono:
+    <input type="text" placeholder="Tu Telefono" required pattern="number">
+        <span class="form-error">
+      <i class="fi-alert"></i>Tu telefono es obligatorio!</span>
+  </label>
+
+</div>
+<div class="row columns">
+  <label>Mensaje
+<textarea placeholder="Tu mensaje"></textarea>
+  </label>
+</div>
+
+<div class="row columns">
+  <input type="submit" class="button" value="Enviar">
+
+  <button class="button success" type="reset" value="Reset">Reset</button>
+</div>
+  </form>
+
+</div>
+
+<!--/button Reserve form-->
 
 <footer>
   <div class="row">
