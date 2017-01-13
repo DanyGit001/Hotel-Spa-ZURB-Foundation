@@ -148,6 +148,20 @@ color:$black;
 }
 }
 
+.imagen-habitaciones {
+ background-image:url(../assets/imagenes/separadores/small/separator03-image.jpg);
+ @include breakpoint(medium) {
+ background-image:url(../assets/imagenes/separadores/medium/separator03-image.jpg);
+ }
+ @include breakpoint(large) {
+ background-image:url(../assets/imagenes/separadores/large/separator03-image.jpg);
+}
+}
+
+
+
+
+
 
 
 section.galeria-sobre-nosotros {
