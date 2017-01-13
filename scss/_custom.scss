@@ -158,6 +158,18 @@ color:$black;
 }
 }
 
+.habitacion-uno {
+ background-image:url(../assets/imagenes/separadores/small/separator03-image.jpg);
+ @include breakpoint(medium) {
+ background-image:url(../assets/imagenes/separadores/medium/separator03-image.jpg);
+ }
+ @include breakpoint(large) {
+ background-image:url(../assets/imagenes/separadores/large/separator03-image.jpg);
+}
+}
+
+
+
 
 
 
@@ -252,4 +264,16 @@ section.contenido {
     justify-content: center;
     flex-direction: column;
      
+}
+
+nav.menuHabitacion {
+    margin: rem-calc(30 0 0 0);
+}
+
+
+section.galeria {
+    padding: rem-calc(30 0);
+    h2 {
+        margin-bottom: rem-calc(30):
+    }
 }
