@@ -274,6 +274,23 @@ nav.menuHabitacion {
 section.galeria {
     padding: rem-calc(30 0);
     h2 {
-        margin-bottom: rem-calc(30):
+        margin-bottom: rem-calc(30);
     }
+}
+
+
+section.contacto {
+    @include breakpoint(large) {
+    padding: rem-calc(120 0);
+    }
+    label {
+        font-weight: bold;
+        font-size: rem-calc(14);
+    }
+.reset {
+    @include button-hollow;
+    border:2px solid $secondary-color;
+    color:$secondary-color;
+}
+
 }
